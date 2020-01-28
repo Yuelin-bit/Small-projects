@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+
+<webpage name="www.yuelin.com">
+    <link name="www.alibaba.com" />
+    <link name="www.mycourses.mcgill.ca" />
+    <link name="www.cf.org" />
+    <rank value="1.076" />
+    <content value="In 2012, I was sitting in a crowded room and I was happy."/>
+</webpage>
+
+<webpage name="www.alibaba.com">
+    <link name="www.yuelin.com" />
+    <link name="www.mycourses.mcgill.ca" />
+    <rank value="1.115" />
+    <content value="And my job was a singer."/>
+</webpage>
+
+<webpage name="www.mycourses.mcgill.ca">
+    <link name="www.yuelin.com" />
+    <rank value="0.910" />
+    <content value="The problem was."/>
+</webpage>
+
+<webpage name="www.cf.org">
+    <link name="www.mycourses.mcgill.ca" />
+    <rank value="0.752" />
+    <content value="I could see that their eyes. Was and was"/>
+</webpage>
+
+</test>
